@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Ema john simple app
 
 ## [Live link](https://ema-john-shop-61b29.web.app/).
 ## [Code link](https://github.com/Asadullah-Hil-Galib/ema-john-my-online-shop).
