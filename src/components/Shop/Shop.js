@@ -52,7 +52,7 @@ const Shop = () => {
     return (
         <>
             <div className="search-container">
-                <input
+                <input className="product-search-field"
                     type="text"
                     onChange={handleSearch}
                     placeholder="Search Product" />
@@ -71,7 +71,7 @@ const Shop = () => {
                 <div className="cart-container">
                     <Cart cart={cart}>
                         <Link to="/review">
-                            <button className="btn-regular">Review Your Order</button>
+                            <button className="main-btn">Review Your Order</button>
                         </Link>
                     </Cart>
                 </div>

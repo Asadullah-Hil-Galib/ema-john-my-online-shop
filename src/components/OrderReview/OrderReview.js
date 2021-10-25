@@ -36,7 +36,7 @@ const OrderReview = () => {
             </div>
             <div className="cart-container">
                 <Cart cart={cart}>
-                    <button onClick={handleProceedToShipping} className="btn-regular">Proceed to Shipping</button>
+                    <button onClick={handleProceedToShipping} className="main-btn">Proceed to Shipping</button>
                 </Cart>
             </div>
         </div>

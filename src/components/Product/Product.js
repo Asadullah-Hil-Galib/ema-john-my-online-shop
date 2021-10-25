@@ -10,7 +10,7 @@ const Product = (props) => {
 
     return (
         <div className="product">
-            <div>
+            <div style={{marginRight : '1rem'}}>
                 <img src={img} alt="" />
             </div>
             <div>
@@ -26,7 +26,7 @@ const Product = (props) => {
                 <br />
                 <button
                     onClick={() => props.handleAddToCart(props.product)}
-                    className="btn-regular"
+                    className="main-btn"
                 ><FontAwesomeIcon icon={faShoppingCart} /> add to cart</button>
             </div>
         </div>

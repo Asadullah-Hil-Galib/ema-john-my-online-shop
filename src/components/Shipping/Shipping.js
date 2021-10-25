@@ -21,7 +21,7 @@ const Shipping = () => {
                 <input placeholder="City" defaultValue="" {...register("city")} />
                 <input placeholder="phone number" defaultValue="" {...register("phone")} />
 
-                <input type="submit" />
+                <input className="main-btn" type="submit" />
             </form>
         </div>
     );

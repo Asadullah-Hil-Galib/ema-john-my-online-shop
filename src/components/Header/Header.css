@@ -3,18 +3,25 @@
 }
 .logo{
     height: 50px;
+    padding: 1rem 0;
 }
 .header nav {
-    background-color: black;
+    background-color: #fff;
     line-height: 40px;
+    box-shadow: 0 -4px 5px rgba(0, 0, 0, 0.5);
+    padding-bottom: 0.7rem;
 }
 .header nav a{
     text-decoration: none;
-    color: white;
+    color: #333;
+    font-weight: 500;
     margin-right: 20px;
     padding: 5px;
     font-size: 20px;
 }
-.header nav a:hover{
-    background-color: lightgray;
+.show-user-name{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #333;
+    padding: 0 1rem;
 }

@@ -1,0 +1,43 @@
+.cart-style{
+    padding: 1rem;
+    background: green;
+    color: #fff;
+    text-transform: uppercase;
+}
+.cart-style h3{
+    font-size: 1.5rem;
+}
+.cart-style h5{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    margin: 0;
+}
+.cart-style p{
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.main-btn{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+    background: #fff;
+    padding: 0.5rem 2rem;
+    outline: none;
+    border: none;
+    margin: 1rem 0;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    text-transform: capitalize;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.6);
+    transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    cursor: pointer;
+    display: inline-block;
+}
+.main-btn:hover{
+    background: #e83a3b;
+    color: #fff;
+}
